@@ -7,6 +7,8 @@ import JSXFunctionalComponentInReact from './4JSXFunctionalComponentInReact.jsx'
 import ControlledFunctionalComponentInReact from './5ControlledFunctionalComponentInReact.jsx'
 import MultipleFunctionalComponentInReact from './6MultipleFunctionalComponentInReact.jsx'
 import HookInFunctionalComponentInReact from './7HookInFunctionalComponentInReact.jsx'
+import UseEffectHookinFunctionalComponentInReact from './8UseEffectHookinFunctionalComponentInReact.jsx'
+import UseLayEffectHookinFunctionalComponentInReact from './9UseLayEffectHookinFunctionalComponentInReact.jsx'
 
 // import React from 'react';
 
@@ -43,6 +45,14 @@ const FunctionalCompoReact = () => {
             ,{
                 path:"hookincomponent",
                 element:<HookInFunctionalComponentInReact/>
+            }
+            ,{
+                path:"useeffectincomponent",
+                element:<UseEffectHookinFunctionalComponentInReact/>
+            }
+            ,{
+                path:"uselayouteffectincomponent",
+                element:<UseLayEffectHookinFunctionalComponentInReact/>
             }
             ]
 

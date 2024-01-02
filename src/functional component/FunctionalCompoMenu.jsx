@@ -15,6 +15,8 @@ const FunctionalCompoMenu = () => {
                         <li><Link to="controlledcomponent">Controlled component</Link></li>
                         <li><Link to="multiplecomponent">Multiple Input in single state component</Link></li>                        
                         <li><Link to="hookincomponent">Hooks</Link></li>                        
+                        <li><Link to="useeffectincomponent">Use Effcet</Link></li>                        
+                        <li><Link to="uselayouteffectincomponent">Use layout Effcet</Link></li>                        
                     </ol>
                 </div>
             </div>
