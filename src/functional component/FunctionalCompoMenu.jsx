@@ -17,7 +17,7 @@ const FunctionalCompoMenu = () => {
                         <li><Link to="hookincomponent">Hooks</Link></li>                        
                         <li><Link to="useeffectincomponent">Use Effcet</Link></li>                        
                         <li><Link to="uselayouteffectincomponent">Use layout Effcet</Link></li>                        
-                        <li><Link to="userefincomponent">Use Refrence</Link></li>                        
+                        <li><Link to="userefincomponent">Use Ref</Link></li>                        
                     </ol>
                 </div>
             </div>

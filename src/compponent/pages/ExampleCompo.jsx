@@ -4,7 +4,7 @@ const ExampleCompo = () => {
     return (
         <>
             <div className="container">
-                <div className="row">
+                <div className="row mt-5">
                     <div className="col">
                         <Link to="classcomponent"><h2>class componenet</h2></Link>
                     </div>
