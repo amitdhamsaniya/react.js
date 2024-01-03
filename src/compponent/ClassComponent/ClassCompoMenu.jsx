@@ -6,7 +6,7 @@ class ClassCompoMenu extends Component {
             <>
                 <ol>
                     <li>
-                        <Link to="whatiscomponent">what is componenet</Link>
+                        <Link to="whatiscomponent">what is  class componenet</Link>
                     </li>
                     <li>
                         <Link to="classcomponent">Class</Link>
