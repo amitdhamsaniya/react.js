@@ -28,9 +28,14 @@ const UseRefHookinFunctionalComponentInReact = () => {
             {data}
 
             <div className="alert alert-info">
+                <p>The useRef hook is a new addition in React 16.8. </p>
                 <h3>syntex</h3>
                 const refContainer = useRef(initialValue);
             </div>
+            <ol>
+                <li><h2>What is useRef hook?</h2></li>
+                <p>The main use of useRef hook is to access the DOM elements in a more efficient way as compared to simple refs. Since useRef hooks preserve value across various re-renders and do not cause re-renders whenever a value is changed they make the application faster and helps in caching and storing previous values</p>
+            </ol>
         </>
     );
 };

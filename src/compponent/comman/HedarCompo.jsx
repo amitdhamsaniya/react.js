@@ -16,14 +16,15 @@ import {
   MDBCollapse,
 } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
-
+import img from './react.logo.png'
 export default function App() {
   const [openBasic, setOpenBasic] = useState(false);
 
   return (
     <MDBNavbar expand='lg' light bgColor='light'>
       <MDBContainer fluid>
-      <MDBNavbarBrand href='#'>Brand</MDBNavbarBrand>
+      {/* <MDBNavbarBrand href='#'>Brand</MDBNavbarBrand> */}
+      <MDBNavbarBrand href='#'><img style={{width:"50px"}} src={img} alt="" /></MDBNavbarBrand>
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
           aria-expanded='false'

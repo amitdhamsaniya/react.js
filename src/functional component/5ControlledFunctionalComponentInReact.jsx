@@ -15,6 +15,8 @@ const ControlledFunctionalComponentInReact = () => {
          {/* <p>{variable_data}</p> */}
          <p>{data}</p>
          <p>{state2}</p>
+
+         <p>React’s Controlled Components manage form data via component state, receiving values through props and updating through callbacks like onChange. The parent component maintains the state, passing updated values as props to the controlled component.</p>
         </>
     );
 };

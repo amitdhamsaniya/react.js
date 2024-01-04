@@ -1,61 +1,41 @@
-// import React, { useEffect, useState, useLayoutEffect} from 'react';
+import React, { useEffect, useState, useLayoutEffect } from 'react';
 
-// const UseLayEffectHookinFunctionalComponentInReact = () => {
-//   const [Counter,setCnt] = useState(0)
-//   const [SecoundState,anything] = useState(0)
-//   const [refreshStatus, setRefreshStatus] = useState(true)
-//   useEffect(()=>{
-//     console.log("called useEffect");
-//     getData()
-//   })
-//   const getData = async () => {
-//     await  fetch('https://fakestoreapi.com/products').then((res) => res.json()).then((result) => {
-//         console.log(result);
-//     })
-// }
-// useLayoutEffect(() => {
-//   console.log("called useLayoutEffect");
-//   fetch('https://fakestoreapi.com/products').then((res) => res.json()).then((result) => {
-//       console.log(result);
+const UseLayEffectHookinFunctionalComponentInReact = () => {
+  const [counter, setCnt] = useState(0)
+  const [secondState, anything] = useState(0)
+  const [refreshStatus, setRefreshStatus] = useState(true)
+  useEffect(() => {
+    console.log("called useEffect");
+    getData()
+  })
+  const getData = async () => {
+    await fetch('https://fakestoreapi.com/products').then((res) => res.json()).then((result) => {
+      console.log(result);
+    })
+  }
+  useLayoutEffect(() => {
+    console.log("called useLayoutEffect");
+    fetch('https://fakestoreapi.com/products').then((res) => res.json()).then((result) => {
+      console.log(result);
 
-//   })
-//   return () => {
-//     console.log("called return");
-// }
-// })
-//     return (
-//         <>
-//         <button onClick={setCnt(Counter + 1)}>increment{Counter}</button>
-//         <button onClick={anything(SecoundState + 1)}>increment{Counter}</button>
-//         <button onClick={() => { setRefreshStatus(!refreshStatus) }}>Refresh {JSON.stringify(refreshStatus)}</button>
-
-//         </>
-//     );
-// };
-
-// export default UseLayEffectHookinFunctionalComponentInReact;
-
-import React, { useState } from 'react';
-
-const Counter = () => {
-  const [count, setCount] = useState(0);
-
-  const increment = () => {
-    setCount(count + 1);
-  };
-
-  const decrement = () => {
-    setCount(count - 1);
-  };
-
+    })
+    return () => {
+      console.log("called return");
+    }
+  })
   return (
-    <div>
-      <h1>Increment/Decrement Example</h1>
-      <p>Current Value: {count}</p>
-      <button onClick={increment}>Increment</button>
-      <button onClick={decrement}>Decrement</button>
-    </div>
+    <>
+      UseEffectHooksInFunctionalCompo
+      <button onClick={() => { setCnt(counter + 1) }}>Increment {counter}</button><br />
+      {/* <button onClick={() => { anything(secondState + 1) }}>Increment Other State Data {secondState}</button> */}
+      <button onClick={() => { setRefreshStatus(!refreshStatus) }}>Refresh {JSON.stringify(refreshStatus)}</button>
+      <div className="mt-5">
+        <p>The React JS useLayoutEffect works similarly to useEffect but rather works asynchronously like the useEffect hook, it fires synchronously after all DOM loading is done loading. This is useful for synchronously re-rendering the DOM and also to read the layout from the DOM. </p>
+      </div>
+    </>
   );
 };
 
-export default Counter;
+
+export default UseLayEffectHookinFunctionalComponentInReact;
+

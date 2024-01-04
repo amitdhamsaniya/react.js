@@ -6,6 +6,13 @@ const HookInFunctionalComponentInReact = () => {
             <p>Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.</p>
             <p> This page describes the APIs for the built-in Hooks in React.</p>
             <p>If you’re new to Hooks, you might want to check out the overview first. You may also find useful information in the frequently asked questions section.</p>
+
+
+
+            <ol>
+                <li>what is hooks?</li>
+                <p>Hooks are used to give functional components an access to use the states and are used to manage side-effects in React.</p>
+            </ol>
             <div className="alert alert-info">
                 <ul>
                     <li>
@@ -13,8 +20,8 @@ const HookInFunctionalComponentInReact = () => {
                         <ul>
                             <li><a href="#usestate"><code className="gatsby-code-text">useState</code></a> <span>useState is a React Hook that lets you add a state variable to your component.</span> </li>
                             <li><a href="#useeffect"><code className="gatsby-code-text">useEffect</code></a><span>useEffect is a React Hook that lets you synchronize a component with an external system.</span></li>
-                            <li><a href="#useref"><code className="gatsby-code-text">useRef</code></a></li>
                             <li><a href="#uselayouteffect"><code className="gatsby-code-text">useLayoutEffect</code></a></li>
+                            <li><a href="#useref"><code className="gatsby-code-text">useRef</code></a></li>
                         </ul>
                     </li>
                     <li>
