@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';    
+// import img1 from '../img/difference.class and functional.png';    
 const ExampleCompo = () => {
     return (
         <>
@@ -17,6 +18,9 @@ const ExampleCompo = () => {
                         <Outlet></Outlet>
                     </div>
                 </div>
+                {/* <div>
+                    <img src={img1} alt="" />
+                </div> */}
             </div>
 
         </>

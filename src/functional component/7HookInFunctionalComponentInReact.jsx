@@ -12,6 +12,8 @@ const HookInFunctionalComponentInReact = () => {
             <ol>
                 <li>what is hooks?</li>
                 <p>Hooks are used to give functional components an access to use the states and are used to manage side-effects in React.</p>
+                <li>Why the need for Hooks?</li>
+                <p>There are multiple reasons responsible for the introduction of the Hooks which may vary depending upon the experience of developers in developing React product.</p>
             </ol>
             <div className="alert alert-info">
                 <ul>

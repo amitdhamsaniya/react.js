@@ -10,6 +10,7 @@ import HookInFunctionalComponentInReact from './7HookInFunctionalComponentInReac
 import UseEffectHookinFunctionalComponentInReact from './8UseEffectHookinFunctionalComponentInReact.jsx'
 import UseLayEffectHookinFunctionalComponentInReact from './9UseLayEffectHookinFunctionalComponentInReact.jsx'
 import UseRefHookinFunctionalComponentInReact from './10UseRefHookinFunctionalComponentInReact.jsx'
+import UseCallbackHookinFunctionalComponentInReact from './11UseCallbackHookinFunctionalComponentInReact.jsx'
 
 // import React from 'react';
 
@@ -58,6 +59,10 @@ const FunctionalCompoReact = () => {
             ,{
                 path:"userefincomponent",
                 element:<UseRefHookinFunctionalComponentInReact/>
+            }
+            ,{
+                path:"usecallbackincomponent",
+                element:<UseCallbackHookinFunctionalComponentInReact/>
             }
             ]
 

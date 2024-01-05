@@ -23,7 +23,7 @@ const UseRefHookinFunctionalComponentInReact = () => {
                 console.log(event);
                 console.log(event.target);
                 console.log(event.target.value);
-                anything(event.target.value)
+                anything(event.target.value);
             }} />
             {data}
 

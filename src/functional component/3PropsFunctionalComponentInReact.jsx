@@ -9,7 +9,10 @@ const PropsFunctionalComponentInReact = () => {
     });
     return (
         <>
-           {/* <h1>props..</h1>   */}
+        <ol>
+            <li><h2>What is props?</h2></li>
+            <p>React allows us to pass information to a Component using something called props (which stands for properties). Props are objects which can be used inside a component.</p>
+        </ol>
            <div className="row">
             {ProductListData}
            </div>
