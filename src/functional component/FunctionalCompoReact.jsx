@@ -13,6 +13,7 @@ import UseRefHookinFunctionalComponentInReact from './10UseRefHookinFunctionalCo
 import UseCallbackHookinFunctionalComponentInReact from './11UseCallbackHookinFunctionalComponentInReact.jsx'
 import UseMemoHookinFunctionalComponentInReact from './12UseMemoHookinFunctionalComponentInReact.jsx'
 import UseIdHookinFunctionalComponentInReact from './13UseIdHookinFunctionalComponentInReact.jsx'
+import UseImperativeHandleFunctionalComponentInReact from './14UseImperativeHandleFunctionalComponentInReact.jsx'
 
 // import React from 'react';
 
@@ -73,6 +74,10 @@ const FunctionalCompoReact = () => {
             ,{
                 path:"useidincomponent",
                 element:<UseIdHookinFunctionalComponentInReact/>
+            }
+            ,{
+                path:"useimperativehandleincomponent",
+                element:<UseImperativeHandleFunctionalComponentInReact/>
             }
             ]
 
