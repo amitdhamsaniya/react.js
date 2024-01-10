@@ -21,6 +21,10 @@ const UseMemoHookinFunctionalComponentInReact = () => {
             is {factorial}
             <button onClick={onClick}>Re-render</button>
             <a href="https://dmitripavlutin.com/react-usememo-hook/">Reference</a>
+
+            <div className="alert alert-info mt-5">
+                <p>The useMemo is a hook used in the functional component of react that returns a memoized value.</p>
+            </div>
         </div>
     );
 }
