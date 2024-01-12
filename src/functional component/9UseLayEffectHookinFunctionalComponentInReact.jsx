@@ -17,7 +17,6 @@ const UseLayEffectHookinFunctionalComponentInReact = () => {
     console.log("called useLayoutEffect");
     fetch('https://fakestoreapi.com/products').then((res) => res.json()).then((result) => {
       console.log(result);
-
     })
     return () => {
       console.log("called return");

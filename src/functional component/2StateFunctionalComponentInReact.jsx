@@ -20,6 +20,11 @@ const StateFunctionalComponentInReact = () => {
       <p>Current Value: {count}</p>
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
+
+      <div className="alert alert-info mt-5">
+        <h3>syntax</h3>
+        <p>const [var, setVar] = useState(0);</p>
+      </div>
     </div>
          <ol>
           <li><h2>  what is state in raect?</h2></li>
