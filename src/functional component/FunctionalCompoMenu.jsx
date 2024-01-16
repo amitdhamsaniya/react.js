@@ -22,6 +22,7 @@ const FunctionalCompoMenu = () => {
                         <li><Link to="usememoincomponent">Use Memo</Link></li>                        
                         <li><Link to="useidincomponent">Use Id</Link></li>  
                         <li><Link to="useimperativehandleincomponent">Use Imperative Handle</Link></li>                      
+                        <li><Link to="usehoneycomperentincomponent">Honey com perent</Link></li>                      
                     </ol>
                 </div>
             </div>

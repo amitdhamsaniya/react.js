@@ -38,3 +38,25 @@ const UseLayEffectHookinFunctionalComponentInReact = () => {
 
 export default UseLayEffectHookinFunctionalComponentInReact;
 
+
+
+// import React from 'react';
+// import { useLayoutEffect } from 'react';
+// import { useState } from 'react';
+
+// const UseLayEffectHookinFunctionalComponentInReact = () => {
+//   const [value, setvalue] = useState('hello.');
+//   useLayoutEffect(() => {
+//     // console.log("hello..");
+//   });
+//   setTimeout(() => {
+//     setvalue("geeks")
+//   }, 2000);
+//   return (
+//     <>
+//       <h1>this is {value} number</h1>
+//     </>
+//   );
+// };
+
+// export default UseLayEffectHookinFunctionalComponentInReact;
