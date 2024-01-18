@@ -21,7 +21,7 @@ const UseImperativeHandleFunctionalComponentInReact = () => {
 
         </>
     );
-};
+    };
 
 export default UseImperativeHandleFunctionalComponentInReact;
 
