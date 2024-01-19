@@ -4,12 +4,12 @@ const UseEffectHookinFunctionalComponentInReact = () => {
     const [counter, setCnt] = useState(0)
     const [secoundcounter, anything] = useState(0)
     const [refreshStatus, setRefreshStatus] = useState(0)
-    // useEffect(() => {
-    //     console.log("called");
-    //     fetch("https://fakestoreapi.com/products").then((res) => res.json()).then((result) => {
-    //         console.log(result);
-    //     })
-    // }, [refreshStatus])
+    useEffect(() => {
+        console.log("called");
+        fetch("https://fakestoreapi.com/products").then((res) => res.json()).then((result) => {
+            console.log(result);
+        })
+    }, [refreshStatus])
     return (
         <>
             <button onClick={() => { setCnt(counter + 1) }}>incment{counter}</button>
