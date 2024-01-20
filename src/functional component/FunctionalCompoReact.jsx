@@ -15,7 +15,7 @@ import UseMemoHookinFunctionalComponentInReact from './12UseMemoHookinFunctional
 import UseIdHookinFunctionalComponentInReact from './13UseIdHookinFunctionalComponentInReact.jsx'
 import UseImperativeHandleFunctionalComponentInReact from './14UseImperativeHandleFunctionalComponentInReact.jsx'
 import UseHoneyComPerentFunctionalComponentInReact from './15UseHoneyComPerentFunctionalComponentInReact.jsx'
-import UseContextFunctionalComponentInReact from './16USeContaxt/UseContextFunctionalComponentInReact.jsx'
+import UseContextFunctionalComponentInReact from './16USeContaxt/usecontext page/UseContextFunctionalComponentInReact.jsx'
 
 // import React from 'react';
 
