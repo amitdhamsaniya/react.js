@@ -1,0 +1,19 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "name": "Satheesh",
+            "email": "Sat@mail.com",
+            "adderss": "South street"
+        }
+    ],
+    "users": [
+        {
+            "username": "admin",
+            "password": "123",
+            "email": "admin@mail.com",
+            "role": 1,
+            "id": 5
+        }
+    ]
+}

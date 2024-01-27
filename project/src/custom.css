@@ -1,0 +1,9 @@
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+    .aspect_ratio{
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
