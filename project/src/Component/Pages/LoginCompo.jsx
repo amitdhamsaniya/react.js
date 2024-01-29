@@ -23,7 +23,7 @@ const LoginCompo = () => {
                                 </div>
                                 <div className="row mt-3">
                                     <div className="col">
-                                        <input type="text" onChange={handleChange} placeholder='Enter your password' className='form-control'  name="password"/>
+                                        <input type="password" onChange={handleChange} placeholder='Enter your password' className='form-control'  name="password"/>
                                     </div>
                                 </div>
                                 <div className="row mt-3 text-center">
