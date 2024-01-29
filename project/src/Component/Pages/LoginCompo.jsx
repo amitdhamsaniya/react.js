@@ -34,7 +34,7 @@ const LoginCompo = () => {
                                 </div>
                                 <div className="row mt-3 text-center">
                                     <div className="col">
-                                        <Link to="/rigistration">Creact a new account</Link>
+                                        <Link to="/rigistration">Creact new account</Link>
                                     </div>
                                 </div>
                             </form>
