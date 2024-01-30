@@ -1,19 +1,52 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "name": "Satheesh",
-            "email": "Sat@mail.com",
-            "adderss": "South street"
-        }
-    ],
-    "users": [
-        {
-            "username": "admin",
-            "password": "123",
-            "email": "admin@mail.com",
-            "role": 1,
-            "id": 5
-        }
-    ]
+  "posts": [
+    {
+      "id": "1",
+      "name": "Satheesh",
+      "email": "Sat@mail.com",
+      "adderss": "South street"
+    }
+  ],
+  "users": [
+    {
+      "username": "admin",
+      "password": "123",
+      "email": "admin@mail.com",
+      "role": 1,
+      "id": "5"
+    },
+    {
+      "username": "data",
+      "password": "456",
+      "email": "data@mail.com",
+      "role": 2,
+      "id": "1"
+    },
+    {
+      "id": "8e33",
+      "username": "insert",
+      "password": "insert",
+      "email": "insert@mail.com"
+    },
+    {
+      "id": "afd1",
+      "username": "test",
+      "password": "123",
+      "email": "test@mail.com"
+    },
+    {
+      "id": "69a9",
+      "username": "new user",
+      "password": "123",
+      "role": "2",
+      "email": "newuser@gmail.com"
+    },
+    {
+      "id": "87d4",
+      "username": "new data",
+      "password": "123",
+      "role": "2",
+      "email": "data@mail.com"
+    }
+  ]
 }

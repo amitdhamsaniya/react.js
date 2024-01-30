@@ -9,7 +9,7 @@ import ApiCalling from './../Component/Pages/APIExample.jsx';
 import LoginCompo from './../Component/Pages/LoginCompo.jsx';
 import SignUPCompo from '../Component/Pages/SignnUpCompo.jsx';
 
-// const ClassCompo = lazy(()=> import('./../Component/ClassComponent/ClassCompoRoute.jsx'))
+const AdminRoute = lazy(()=> import('./AdminRoute.jsx'))
 
 const router = createBrowserRouter([
     {
@@ -30,8 +30,12 @@ const router = createBrowserRouter([
         element: (<><HeaderCompo /><LoginCompo /></>),
     }
     , {
-        path: "/rigistration",
+        path: "/registration",
         element: (<><HeaderCompo /><SignUPCompo /></>),
+    },
+    {
+        path:"/admin/*",
+        element:(<Suspense fallback={<>loding..</>}><AdminRoute /></Suspense>)
     }
 ])
 
