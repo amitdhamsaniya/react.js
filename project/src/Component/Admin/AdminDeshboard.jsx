@@ -1,11 +1,12 @@
 import React from 'react';
 
 const AdminDeshboard = () => {
-    return (
-        <>
-          hello.. deshboard  
-        </>
-    );
+
+  return (
+    <>
+      hello..
+    </>
+  );
 };
 
 export default AdminDeshboard;
