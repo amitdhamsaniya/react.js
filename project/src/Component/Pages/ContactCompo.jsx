@@ -7,6 +7,7 @@ const ContactCompo = () => {
                 <div className="row">
                     <div className="col">
                         <h2>Contact us page data</h2>
+                        
                     </div>
                 </div>
             </div>
